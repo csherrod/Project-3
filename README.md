@@ -11,7 +11,7 @@
 
 * Stocks can have different share classes. Same company just 2 different share classes with 2 different prices. These shares are used to create other financial products like mutual funds and ETFs which in turn are sold on one of these exchanges. Mutual funds also have different share classes. 
 
-* When you purchase a stock you do so using one of four order types. Some of these order types will create different purchase prices for your ONE order. Want to sell that stock, you got options there that will give you different prices there too. You can even combine some of these order types in a bracket order.
+* When you purchase a stock you do so using one of four order types. Some of these order types will create different purchase prices for your ONE order. Want to sell that stock, you got options there that will also give you different prices. You can even combine some of these order types in a bracket order.
 
 * Some stocks produce dividends based on the corporation’s performance. These dividends are given to shareholders in cash or more shares. Sometimes you don’t have enough shares to warrant a full share in the company so you can actually get a fraction of a share. Which means that you can buy/sell fractions of shares.
 
@@ -55,7 +55,7 @@
 [check out Chris Demeke](https://github.com/Cdemeke1227/project-three-research/blob/master/README.md)
 
 ### What deployment options are there? What are the benefits of the deployment options?
-* I think we should try to do AWS. No idea if it's the best but learning to use it will be the most beneficial down the road in my opinion. 
+* I think we should try to do AWS. No idea if it's the best but learning to use it will be the most beneficial down the road in my opinion.
 
 ### Who are the competitors? What do they do well? What problems do they have?
 
