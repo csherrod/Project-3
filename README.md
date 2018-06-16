@@ -51,12 +51,14 @@
 #### On Sign In
 * Different Home Page
 * Portfolio/My Portfolio
-* Research - a place where users can look up information on potential investments. THere should also be a place to store/save articles to read later.
+* Research - a place where users can look up information on potential investments. There should also be a place to store/save articles to read later.
+* Build web scrapers to scrape from financial websites using keywords or all (eg. Bloomberg, Forbes, etc)
+* Stock Ticker - a scrolling list of stocks within your portfolio or watchlist that updates with the API data and moves across the screen. Ideally it would update with red and green to signal which way the last trade went.
 * Watchlist - this is a very common feature in most stock market games but it's a place where users can add a stock just to follow
 * Awards/Achievements - what will the users want to achieve or unlock from the game. Are they able to share this with others? Where there be special icons to display next to their username?
-* Friends - I think we need to have at least computer friends to start with but maybe you can add real friends here.
-* Messages -
-* Help/Tutorial - might need to be seperated out but a place where users can learn more about how to play the game, submit issues, learn how to invest and different investment strategies.
+* Friends - I think we need to have at least computer friend to start with, ideally 3, but maybe you can add real friends here as well. Ideally these computer friends shouldn't be trading to much but they should have much larger portfolio's as far as assets go. The user should be able to go into these portfolio's and look at their strategies and see how well they're doing. If it's another user they should have to choose to share this feature.
+* Messages - Admins can send messages, user receive update messages about new challenges or awards or other friends can text them
+* Help/Tutorial - might need to be seperated out but a place where users can learn more about how to play the game, submit issues, learn how to invest and different investment strategies. I can not stress how important building a great walk through is going to be for this application. If we decide to target people that are newer to the stock market, (highly recommend) then they need a step by step guide on what to do and the best way to get started.
 * Profile - name, age, strategies
 * Sign Out
 
