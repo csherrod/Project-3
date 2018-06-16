@@ -15,9 +15,9 @@
 
 * Some stocks produce dividends based on the corporation’s performance. These dividends are given to shareholders in cash or more shares. Sometimes you don’t have enough shares to warrant a full share in the company so you can actually get a fraction of a share. Which means that you can buy/sell fractions of shares.
 
-* This is just some of the basics of vanilla stocks. You also have short selling, REITs, MLPs, Mortgage Back Securities (financial crisis of 2008), Corporate Bonds, Municipal Bonds, and Options. Call options, Put options, Strike Price, Long Call Option, LEAPs, Spread Options, Straddles, Butterfly Option, American Option, European Option, Exotic Options. You have derivatives, currencies, margin, leverage, penny stocks, dark pools, and just on and on with stuff and things with different names, strategies, financial requirements, tax obligations and tax implications.
+* This is just some of the basics of vanilla stocks. You also have short selling, REITs, MLPs, Mortgage Back Securities (financial crisis of 2008), Corporate Bonds, Municipal Bonds, and Options. Oh the Options: Call options, Put options, Strike Price, Long Call Option, LEAPs, Spread Options, Straddles, Butterfly Option, American Option, European Option, Exotic Options. You have derivatives, currencies, margin, leverage, penny stocks, dark pools, and just on and on with stuff and things with different names, strategies, financial requirements, tax obligations and tax implications.
 
-* I can’t even wrap my brain around how much data we’re talking about here
+* I can’t even wrap my brain around how much data we’re talking about here.
 
 * That’s why I think we really need to define our stock market game a little better.
 
@@ -40,7 +40,26 @@
 
 * Not sure about making that all work but mainly I want to just define our MVP so we can do meaningful work on the project and start compartmentalizing this thing.
 
-* Don’t get overwhelmed with learning the stock market just yet. Let’s talk about what we want this thing to do when we’re done. What’s the goal? Why do people want to use it? Stuff like that. After we make some decisions there we can really dig into the research because we’ll have a much better idea of what we want. 
+* Don’t get overwhelmed with learning the stock market just yet. Let’s talk about what we want this thing to do when we’re done. What’s the goal? Why do people want to use it? Stuff like that. After we make some decisions there we can really dig into the research because we’ll have a much better idea of what we want.
+
+## Key Features
+--------------
+* Home Page - need to figure out what links to have here and what the look and feel should be for this page.
+* SignIn/Register
+### Registration
+* This needs to be broken down into different pages but what information do we need from users for them to sign up? Should we ask investment questions to pre-personalize our suggestions to the user based on this? Is this something they can skip and do later? What kind of walk through should we have to explain the layout for the homepage? Can the user skip this?
+#### On Sign In
+* Different Home Page
+* Portfolio/My Portfolio
+* Research - a place where users can look up information on potential investments. THere should also be a place to store/save articles to read later.
+* Watchlist - this is a very common feature in most stock market games but it's a place where users can add a stock just to follow
+* Awards/Achievements - what will the users want to achieve or unlock from the game. Are they able to share this with others? Where there be special icons to display next to their username?
+* Friends - I think we need to have at least computer friends to start with but maybe you can add real friends here.
+* Messages -
+* Help/Tutorial - might need to be seperated out but a place where users can learn more about how to play the game, submit issues, learn how to invest and different investment strategies.
+* Profile - name, age, strategies
+* Sign Out
+
 
 
 ## Tech Questions
