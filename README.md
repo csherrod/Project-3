@@ -1,5 +1,15 @@
 # Project-3
 
+## Section Guide
+1. Brief Overview on Stocks
+1. Suggestions
+1. Key Features
+1. Tech Questions
+1. App Questions
+1. MVP Level 1
+1. MVP Level 2
+1. Suggestions
+
 ## Before I get to answering some of the question regarding the project
 * Along with the research of creating a good game and figuring out what tech stack would work best for this type of application we really need to more clearly define what kind of features we need to have to obtain our “MVP”. I think defining that really supersedes everything. I don’t want to get bogged down in doing unnecessary research while we haven’t crystalized what we want the end product to be. 
 
@@ -67,7 +77,12 @@
 ## Tech Questions
 --------------
 ### What tech stack should we use and why? 
-* MERN - because that's what we need to be able to build when we graduate and having a complete MERN app would be great.
+* MERN
+  * Database - MongoDB (Mongoose) to store User Info and portfolio data - this will be very flat and we can keep portfolio data seperate from the stock data. We don't want a predefined schema because users need to be able to add and remove (buy an sell) stocks at will.
+  * We don't need to store stock price data from the API. We just need to be able to grab that price when the user makes a buy or sell tranactions and use the price for the transactions and real time portfolio calculating and charting.
+  * Server side framework - Express.js
+  * UI - React - Componenet driven and fast. There is going to be a lot going on if we get to MVP Level 2 and we will need some componenets to be constantly updating and trying to update the DOM each time a stock price changes will really slow down our app. Also being able to break down the application into compentents will really help split up the work to create a better team friendly environment.
+  * Server - Node.js
 * It seems like a lot of financial analysis is done in python but I don't know how much actual analysis we will need to be able to do.
 * I still need to do more research but it seems like integrating GraphQL would be beneficial for our app.
 
@@ -114,3 +129,20 @@
 ### What would our pricing/business model look like?
 * Since most games are free to play these days I don't think we can sell the game.
 * I think selling ads might be a way to make some money.
+
+# MVP Level 1 Features
+------------------
+* Sign In/Regististration
+* Portfolio
+* Watchlist
+* Profile
+* Tutorial
+* Help
+* Sign Out
+# MVP Level 2 Features (All of MVP 1 +)
+------------------
+* Stock ticker
+* Research
+* Awards/Achievements
+* Friends
+* Messages
