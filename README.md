@@ -88,7 +88,17 @@
 
 * I think Chris Demeke did some great work already related to some of the tech questions so if you haven't started on your own I would start with there:
 
-[check out Chris Demeke](https://github.com/Cdemeke1227/project-three-research/blob/master/README.md)
+  *   Database and Model: Mongoose or Sequelize
+    - I suggest Mongoose(NoSQL) - to store User info and portfolio data, this will be very flat.  We can keep the portfolios seprate from the stock data. 
+        - I suggest Mongo for user info and portfolio becuase we do not want a predefined schema, becuase we want the user to add and remove any number of stocks at will.  We don't want a rigid structure.
+    - The data (stock prices etc.) being retrieved from an API may not need to be stored.  We will need access realtime values for buy/selling functions. We may only need stock data in realtime transactions, portfolio value calculating, and charting.
+        - We may need SQL if we want to store and chart historical data, unless we can find a plugin? If not we can use https://www.highcharts.com/products/highstock/
+        
+  *   JavaScript framework - React.JS
+    - Will need reusable components, virtual DOM, developer tools.
+        - I would like to use React becuase we will utilize a lot of forms, charts, and realtime portolio valuation functions.
+
+  *   -Express - Node  - (WHY: Javascript, Javascript, Javascript!) I like Javascript.
 
 ### What deployment options are there? What are the benefits of the deployment options?
 * I think we should try to do AWS. No idea if it's the best but learning to use it will be the most beneficial down the road in my opinion.
@@ -96,9 +106,43 @@
 ### Who are the competitors? What do they do well? What problems do they have?
 
 ### What APIs may benefit for a stock market game?
-[check out Chris Demeke](https://github.com/Cdemeke1227/project-three-research/blob/master/README.md)
-### What industry related algorithms would we need to use?
-[check out Chris Demeke](https://github.com/Cdemeke1227/project-three-research/blob/master/README.md)
+(neeed to research these further)
+*   https://iextrading.com/developer/   - Says Free API
+*   https://www.alphavantage.co/        - Says Free API
+*   https://www.programmableweb.com/news/96-stocks-apis-bloomberg-nasdaq-and-etrade/2013/05/22
+*   http://www.xignite.com/             - I don't think this one is free
+
+##  What industry related algorithms would we need to use?
+[Common Types of Trading Algorithms](https://blog.quantopian.com/common-types-of-trading-algorithms/)
+*   Mean Reversion - What goes up must come down
+*   Valuation - Bargain Shopping
+*   Seasonality - Sell in May and go away
+*   Sentiment - Buy the rumor, sell the news
+*   Fundamental Investing
+*   Technical Investing
+
+[Basics of algorithmic trading: Concepts and examples](https://www.investopedia.com/articles/active-trading/101014/basics-algorithmic-trading-concepts-and-examples.asp#ixzz5IFUrgs9m)
+*   Trend-following Strategies  
+*   Arbitrage Opportunities
+*   Index Fund Rebalancing
+*   Mathematical Model Based Strategies
+*   Trading Range (Mean Reversion)
+*   Volume Weighted Average Price (VWAP)
+*   Time Weighted Average Price (TWAP)
+*   Percentage of Volume (POV)
+*   Implementation Shortfall
+
+[Technical Inicators](https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/overview)
+ *   Simple Moving Average (SMA)
+ *   Moving Average Convergence/Divergence (MACD)
+ *   Commodity Channel Index (CCI)
+ *   Relative Strength Index (RSI)
+ *   Stochastic
+ *   Bollinger Bands
+ *   Pivot Points
+ *   PSAR
+ *   Ichimoku Kinko Hyo.
+
 # App Idea Questions
 ------------------
 
